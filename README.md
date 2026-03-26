@@ -1,55 +1,65 @@
-<!-- Peblla Marketing Team Knowledge Base — Auto-generated from group chat learnings -->
-
 # Peblla Marketing Team — Knowledge Base
 
-Comprehensive knowledge base consolidating all learnings, workflows, brand guidelines, and team operations for the Peblla Marketing virtual team. Built from months of group chat collaboration, training sessions, and iterative refinements.
+Comprehensive knowledge base consolidating all learnings, workflows, brand guidelines, team operations, and Feishu Wiki content for the Peblla Marketing virtual team.
+
+> Maintained by **Sigma** (AI Team Lead) and the Peblla Marketing team.
+> Auto-synced daily from group chat learnings.
 
 ## Directory Structure
 
 ```
-Peblla-mkting/
-├── README.md                              — This file
-├── skills/
-│   └── marketing-kit/SKILL.md             — Marketing Kit design methodology (12 modules)
-├── examples/
-│   └── krispy-krunchy/                    — Krispy Krunchy Chicken reference & samples
-├── brand/
-│   ├── brand-guidelines.md                — Logo, colors, brand identity, contact info
-│   ├── ui-design-system.md                — Color tokens, shadcn/ui, M3, Feather Icons, Roboto
-│   ├── hardware-product-mapping.md        — SUNMI model mapping, prototype rules
-│   └── figma-references.md                — All Figma design draft links
-├── team/
-│   ├── team-overview.md                   — Team structure, Sigma as lead, collaboration
-│   ├── roles/
-│   │   ├── rex-director.md                — Director + Storyboard Prompt Engineer
-│   │   ├── coco-designer.md               — Visual Designer + UI/UX
-│   │   ├── ace-editor.md                  — Editor + Motion Effects
-│   │   ├── tutor-tutorial.md              — Tutorial Video Specialist
-│   │   ├── nana-youtube.md                — YouTube Operations Expert
-│   │   ├── toast-competitor.md            — Competitor Monitoring
-│   │   ├── ivy-research.md                — Market Researcher
-│   │   ├── noah-geo.md                    — GEO Monitoring + Brand Sentiment
-│   │   ├── miach-social.md                — Social Media Marketing
-│   │   ├── sean-seo.md                    — GEO/SEO Content (Framer)
-│   │   ├── grace-analytics.md             — Data Analyst
-│   │   ├── safer-review.md                — Visual Review Specialist
-│   │   └── momo-kit.md                    — Marketing Kit Specialist
-│   ├── okr-framework.md                   — OKR goals + KR per role
-│   ├── reporting-cadence.md               — Weekly/daily reports, timezone rules
-│   └── review-workflow.md                 — Devil's Advocate + Safer review flow
-├── workflows/
-│   ├── marketing-kit-workflow.md           — Full Marketing Kit process
-│   ├── business-card-sop.md               — Business card production SOP
-│   ├── video-production.md                — Video production pipeline + methodologies
-│   ├── content-seo.md                     — Blog, SEO, GEO/AEO, Framer CMS
-│   ├── social-media.md                    — Platform strategies + approval rules
-│   ├── youtube-operations.md              — YouTube channel + tutorial categories
-│   └── dashboard-hosting.md               — Private dashboard hosting architecture
-└── methodology/
-    ├── video-script-template.md           — Script outline standard + mandatory rules
-    ├── image-generation-rules.md          — Reference image mode + asset pipeline
-    └── content-review-checklist.md        — Devil's Advocate dimensions per role
+├── brand/                    # Brand identity & design system
+│   ├── brand-guidelines.md       # Logo, colors, brand identity
+│   ├── ui-design-system.md       # Color tokens, shadcn/ui, M3, icons
+│   ├── hardware-product-mapping.md # SUNMI hardware mapping
+│   └── figma-references.md       # Figma design draft links
+├── team/                     # Team structure & operations
+│   ├── team-overview.md          # Team structure, roles, collaboration
+│   ├── roles/                    # Individual role handbooks (13 roles)
+│   ├── okr-framework.md          # OKR goals & KR per role
+│   ├── reporting-cadence.md      # Weekly/daily reports, timezones
+│   └── review-workflow.md        # Devil's Advocate + Safer review
+├── workflows/                # Standard operating procedures
+│   ├── marketing-kit-workflow.md  # Marketing Kit full process
+│   ├── business-card-sop.md      # Business card production SOP
+│   ├── video-production.md       # AI video production pipeline
+│   ├── content-seo.md            # Blog/SEO/GEO/Framer rules
+│   ├── social-media.md           # Social media platform rules
+│   ├── youtube-operations.md     # YouTube + Tutorial videos
+│   └── dashboard-hosting.md      # R2 dashboard architecture
+├── methodology/              # Reusable methodology & standards
+│   ├── video-script-template.md   # Script outline standard
+│   ├── image-generation-rules.md  # AI image generation rules
+│   └── content-review-checklist.md # Review dimensions per role
+├── wiki/                     # Feishu Wiki knowledge (synced)
+│   ├── sales-enablement.md       # Product materials catalog
+│   ├── marketing-plan.md         # Social media & operations plan
+│   ├── leads-tracking.md         # MarTech stack & lead tracking
+│   ├── situation-report.md       # Strategic priorities & resources
+│   └── team-welcome-guide.md     # Onboarding guide
+├── memories/                 # Sigma memory snapshots (auto-synced daily)
+│   ├── CLAUDE-MD-SNAPSHOT.md     # Full knowledge base snapshot
+│   └── SYNC-LOG.md              # Sync history log
+├── skills/                   # Trained skills
+│   └── marketing-kit/SKILL.md    # Marketing Kit design methodology
+└── examples/                 # Real-world examples
+    └── krispy-krunchy/           # Krispy Krunchy Chicken kit
 ```
+
+## Auto-Sync
+
+Sigma automatically syncs new learnings to this repository daily. The `memories/` directory contains the latest snapshot of all accumulated knowledge. Check `memories/SYNC-LOG.md` for sync history.
+
+## Key Links
+
+| Resource | URL |
+|----------|-----|
+| Peblla Website | https://www.peblla.com/ |
+| Peblla Korean | https://kr.peblla.com/ |
+| Rosper Website | https://www.rospertech.com/ |
+| Sales Enablement (Google) | https://sites.google.com/peblla.com/corp/marketing |
+| Brand Guidelines (Figma) | https://www.figma.com/design/LC4IlAdJfxIhiuHE7g4PTD/ |
+| Help Center | https://help.peblla.com/en/ |
 
 ## Key Sections
 
@@ -64,6 +74,12 @@ End-to-end process documentation for marketing kit production, business cards, v
 
 ### Methodology (`methodology/`)
 Reusable standards: video script template structure, mandatory reference-image-based generation rules, and per-role content review checklists.
+
+### Wiki (`wiki/`)
+Feishu Wiki knowledge synced from the company knowledge base. Includes Sales Enablement materials catalog, marketing plan, leads tracking tech stack, strategic situation report, and team onboarding guide.
+
+### Memories (`memories/`)
+Full snapshot of all accumulated knowledge from the Peblla Marketing group chat session. Auto-synced daily to ensure the latest learnings, decisions, and team rules are preserved.
 
 ## Marketing Kit Skill
 
